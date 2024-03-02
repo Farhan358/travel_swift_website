@@ -45,7 +45,6 @@ body {
   padding: 14px 30px;
   border: none;
   border-radius: 8px;
-  margin-left: 10px;
 }
 
 .btn-primary,
@@ -62,6 +61,9 @@ body {
 }
 .margin-bottom {
   margin-bottom: 32px;
+}
+.section-gap {
+  margin-top: 100px;
 }
 /* utilities  end*/
 
@@ -167,7 +169,6 @@ body {
 .banner-form select {
   margin-left: 10px;
   margin-right: 10px;
-  color: var(--text-font-color);
 }
 
 .form-design {
@@ -176,9 +177,38 @@ body {
   height: 100%;
   border: none;
   font-size: 16px;
+  color: var(--text-font-color);
   padding: 0 10px;
   border-radius: 8px;
   text-decoration: none;
 }
 
 /* Hero section Ends */
+
+/* popularSpots-section starts */
+.popularSpots-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  padding-left: 30px;
+}
+
+.popularSpots-section img {
+  margin-right: 25px;
+  width: 80%;
+  height: 80%;
+}
+
+.text-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.text-section ul li {
+  list-style: disc;
+}
+/* popularSpots-section ends */

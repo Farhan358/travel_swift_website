@@ -9,10 +9,6 @@
     font-size: 14px;
   }
 
-  .btn {
-    width: 100%;
-  }
-
   .btn-primary {
     font-size: 20px;
   }
@@ -20,6 +16,11 @@
   .btn-secondary {
     font-size: 18px;
     font-weight: 700;
+    width: 100%;
+  }
+
+  .section-gap {
+    margin-top: 25px;
   }
   /* utilities  end*/
 
@@ -58,6 +59,16 @@
     margin: 10px 0;
   }
   .form-design {
+    width: 100%;
+  }
+
+  /* .popularSpots-section  */
+  .popularSpots-section {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .popularSpots-section img {
     width: 100%;
   }
 }
