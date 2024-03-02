@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+  /* nav section */
+  .nav {
+    justify-content: space-around;
+  }
+  .logo-section img {
+    width: 29px;
+    height: 34px;
+  }
+
+  .logo-section p {
+    font-size: 22px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    padding: 20px;
+    margin-top: 5px;
+  }
+
+  .menu-toggle i {
+    height: 24px;
+    width: 24px;
+  }
+  /* nav section */
+}
