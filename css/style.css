@@ -294,6 +294,38 @@ body {
 
 /* destination-section  ends */
 
+/* why choose us start */
+.service-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+}
+.card {
+  width: calc(50% - 10px);
+  border-radius: 16px;
+  padding: 15px;
+}
+
+.card_1 {
+  background-color: rgba(251, 181, 99, 0.2);
+}
+
+.card_2 {
+  background-color: rgba(41, 206, 246, 0.2);
+}
+
+.card_3 {
+  background-color: rgba(233, 68, 68, 0.2);
+}
+
+.font-size {
+  font-size: 18px;
+}
+/* why choose us end */
+
 /* newsletter section starts */
 .newsletter-section {
   display: flex;

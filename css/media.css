@@ -9,6 +9,10 @@
     font-size: 14px;
   }
 
+  .font-size {
+    font-size: 14px;
+  }
+
   .btn-primary {
     font-size: 20px;
   }
@@ -80,6 +84,11 @@
   .section_3_5 {
     width: 100%;
     padding: 15px;
+  }
+
+  /*  */
+  .card {
+    width: 100%;
   }
 
   /* .newsletter-section  */
