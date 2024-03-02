@@ -23,6 +23,46 @@ body {
 
 /* utilities start*/
 
+.heading-secondary {
+  color: var(--heading-font-color);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.text-secondary {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-secondary-color {
+  color: var(--text-font-color);
+}
+
+.btn {
+  color: var(--secondary);
+  background-color: var(--primary);
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+  font-size: 20px;
+  font-weight: 900;
+}
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 24px;
+}
+.margin-bottom {
+  margin-bottom: 32px;
+}
 /* utilities  end*/
 
 /* nav start */
@@ -90,3 +130,55 @@ body {
 }
 
 /* nav end*/
+
+/* Hero section starts */
+
+.hero-section {
+  background-image: url(../Images/Hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 100px;
+}
+
+.banner-text {
+  color: #fff;
+}
+
+.heading-primary {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.banner-form {
+  width: 90%;
+  margin: 5px auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-form input,
+.banner-form select {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--text-font-color);
+}
+
+.form-design {
+  width: 20%;
+  min-height: 55px;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Hero section Ends */

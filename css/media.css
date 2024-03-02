@@ -1,4 +1,28 @@
 @media (max-width: 600px) {
+  /* utilities start*/
+
+  .heading-secondary {
+    font-size: 20px;
+  }
+
+  .text-secondary {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn-primary {
+    font-size: 20px;
+  }
+
+  .btn-secondary {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  /* utilities  end*/
+
   /* nav section */
   .nav {
     justify-content: space-around;
@@ -27,4 +51,13 @@
     width: 24px;
   }
   /* nav section */
+
+  /*   */
+  .banner-form input,
+  .banner-form select {
+    margin: 10px 0;
+  }
+  .form-design {
+    width: 100%;
+  }
 }
