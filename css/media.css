@@ -71,4 +71,33 @@
   .popularSpots-section img {
     width: 100%;
   }
+
+  /* destination section */
+  .section_1_2,
+  .section_1_4,
+  .section_2_4,
+  .section_2_5,
+  .section_3_5 {
+    width: 100%;
+    padding: 15px;
+  }
+
+  /* .newsletter-section  */
+  .newsletter-section {
+    flex-direction: column;
+  }
+  .newsletter {
+    width: 100%;
+  }
+
+  /*  footer */
+
+  .footer-logo p {
+    font-size: 28px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    padding: 30px;
+  }
 }
