@@ -300,13 +300,12 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  margin: 10px;
 }
+
 .card {
-  width: calc(50% - 10px);
+  width: calc(50% - 16px);
   border-radius: 16px;
-  padding: 15px;
+  padding: 18px;
 }
 
 .card_1 {
@@ -317,8 +316,14 @@ body {
   background-color: rgba(41, 206, 246, 0.2);
 }
 
+.card_2 img {
+  height: 64px;
+  width: 64px;
+}
+
 .card_3 {
   background-color: rgba(233, 68, 68, 0.2);
+  margin-left: 25%;
 }
 
 .font-size {

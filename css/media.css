@@ -91,6 +91,10 @@
     width: 100%;
   }
 
+  .card_3 {
+    margin-left: 0;
+  }
+
   /* .newsletter-section  */
   .newsletter-section {
     flex-direction: column;
