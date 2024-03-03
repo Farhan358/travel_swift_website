@@ -86,6 +86,17 @@
     padding: 15px;
   }
 
+  /* holiday */
+  .holiday-cards {
+    flex-direction: column;
+  }
+  .holiday-card {
+    width: calc(100% - 12px);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  /*  */
   /*  */
   .card {
     width: 100%;
